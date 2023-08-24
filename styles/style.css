@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__nav {
+    padding: 20px 0px 15px 0px;
+}
+
+.header__nav-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-title {
+    font-size: 18px;
+    font-family: 'RB';
+    text-align: center;
+}
+
+.header__nav-ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'RB';
+}
+
+.header__nav-link {
+    color: #3A3838;
+    font-size: 18px;
+    transition: all 300ms;
+}
+
+.header__nav-link:hover {
+    color: #EF4423;
+}
+
+.header__nav-contant-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.main__contant-box-item {
+    display: flex;
+}
+
+.section__box-1 {
+    width: 25%;
+}
+
+.main__contant-box-1 {
+    width: 350px;
+    height: 380px;
+}
+
+.main__contant-box-text {
+    background: #B71C1C;
+    display: flex;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+}
+
+.main__contant-box-img {
+    display: flex;  
+    flex: 1 0 auto;
+}
+
+.main__contant-box-title-1 {
+    color: #FFF;
+    font-size: 19px;
+    font-family: 'RB';
+    padding: 8px 15px 0px 15px;
+}
+
+.main__contant-box-p {
+    color: #EBEBEB;
+    font-size: 16px;
+    font-family: 'RR';
+    padding: 8px 15px;
+}
+
+.main__contant-box-text-2 {
+    background: #6A1B9A;
+}
+
+.main__contant-box-text-3 {
+    background: #303F9F;
+}
+
+.main__contant-box-text-4 {
+    background: #00695C;
+}
+
+.main__contant__bottom {
+    margin-bottom: 50px;
+}
+
+.section__box-bottom {
+    padding: 20px 0px 31px 0px;
+}
+
+.section__box {
+    background: #EDEDED;
+}
+
+.section__contant-box {    
+    display: flex;
+    gap: 30px;
+}
+
+.sections__news-title {
+    color: #3A3838;
+    font-size: 22px;
+    font-family: 'RB';
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section__contant-title {
+    color: #3A3838;
+    font-size: 22px;
+    font-family: 'RB';
+}
+
+.section__contant-text {
+    color: #686868;
+    font-size: 18px;
+    font-family: 'RR';
+    width: 540px;
+    padding-top: 30px;
+}
+
+.footer {
+    background: #3A3838;
+}
+
+.footer__nav {
+    padding: 28px 0;
+}
+
+.footer__nav-title {
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'RB';
+    text-align: center;
+}
+
+.footer__nav-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav-link {
+    color: #FFF;
+    font-size: 18px;
+    transition: all 300ms;
+}
+
+.footer__nav-link:hover {
+    color: #EF4423;
+}
+
+.footer__nav-ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'RB';
+}
